@@ -9,8 +9,6 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	cloudoss "github.com/langgenius/dify-cloud-kit/oss"
-	"github.com/langgenius/dify-cloud-kit/oss/factory"
 	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_manager/media_transport"
 	"github.com/langgenius/dify-plugin-daemon/internal/db"
 	"github.com/langgenius/dify-plugin-daemon/internal/types/app"
@@ -20,6 +18,8 @@ import (
 	"github.com/langgenius/dify-plugin-daemon/pkg/entities/constants"
 	"github.com/langgenius/dify-plugin-daemon/pkg/entities/manifest_entities"
 	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
+	cloudoss "github.com/xwxsee2014/dify-cloud-kit/oss"
+	"github.com/xwxsee2014/dify-cloud-kit/oss/factory"
 )
 
 var defaultConfig = &app.Config{
