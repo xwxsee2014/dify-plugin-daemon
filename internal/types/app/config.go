@@ -20,7 +20,7 @@ type Config struct {
 	DifyInnerApiKey string `envconfig:"DIFY_INNER_API_KEY" validate:"required"`
 
 	// storage config
-	// https://github.com/langgenius/dify-cloud-kit/blob/main/oss/factory/factory.go
+	// https://github.com/xwxsee2014/dify-cloud-kit/blob/main/oss/factory/factory.go
 	PluginStorageType      string `envconfig:"PLUGIN_STORAGE_TYPE" validate:"required"`
 	PluginStorageOSSBucket string `envconfig:"PLUGIN_STORAGE_OSS_BUCKET"`
 

@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 
 	lru "github.com/hashicorp/golang-lru/v2"
-	"github.com/langgenius/dify-cloud-kit/oss"
+	"github.com/xwxsee2014/dify-cloud-kit/oss"
 )
 
 type MediaBucket struct {

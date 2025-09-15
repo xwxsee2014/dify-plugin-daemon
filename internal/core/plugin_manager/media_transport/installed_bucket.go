@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/langgenius/dify-cloud-kit/oss"
+	"github.com/xwxsee2014/dify-cloud-kit/oss"
 
 	"github.com/langgenius/dify-plugin-daemon/internal/utils/log"
 	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"

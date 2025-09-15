@@ -6,7 +6,6 @@ import (
 	"os"
 	"strings"
 
-	"github.com/langgenius/dify-cloud-kit/oss"
 	"github.com/langgenius/dify-plugin-daemon/internal/core/dify_invocation"
 	"github.com/langgenius/dify-plugin-daemon/internal/core/dify_invocation/real"
 	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_manager/debugging_runtime"
@@ -22,6 +21,7 @@ import (
 	"github.com/langgenius/dify-plugin-daemon/internal/utils/mapping"
 	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
 	"github.com/langgenius/dify-plugin-daemon/pkg/plugin_packager/decoder"
+	"github.com/xwxsee2014/dify-cloud-kit/oss"
 )
 
 type PluginManager struct {

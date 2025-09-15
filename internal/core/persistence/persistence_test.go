@@ -4,13 +4,13 @@ import (
 	"encoding/hex"
 	"testing"
 
-	cloudoss "github.com/langgenius/dify-cloud-kit/oss"
-	"github.com/langgenius/dify-cloud-kit/oss/factory"
 	"github.com/langgenius/dify-plugin-daemon/internal/db"
 	"github.com/langgenius/dify-plugin-daemon/internal/types/app"
 	"github.com/langgenius/dify-plugin-daemon/internal/utils/cache"
 	"github.com/langgenius/dify-plugin-daemon/internal/utils/strings"
 	"github.com/stretchr/testify/assert"
+	cloudoss "github.com/xwxsee2014/dify-cloud-kit/oss"
+	"github.com/xwxsee2014/dify-cloud-kit/oss/factory"
 )
 
 func TestPersistenceStoreAndLoad(t *testing.T) {

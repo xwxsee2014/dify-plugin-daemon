@@ -2,8 +2,6 @@ package server
 
 import (
 	"github.com/getsentry/sentry-go"
-	"github.com/langgenius/dify-cloud-kit/oss"
-	"github.com/langgenius/dify-cloud-kit/oss/factory"
 	"github.com/langgenius/dify-plugin-daemon/internal/cluster"
 	"github.com/langgenius/dify-plugin-daemon/internal/core/persistence"
 	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_manager"
@@ -12,6 +10,8 @@ import (
 	"github.com/langgenius/dify-plugin-daemon/internal/types/models/curd"
 	"github.com/langgenius/dify-plugin-daemon/internal/utils/log"
 	"github.com/langgenius/dify-plugin-daemon/internal/utils/routine"
+	"github.com/xwxsee2014/dify-cloud-kit/oss"
+	"github.com/xwxsee2014/dify-cloud-kit/oss/factory"
 )
 
 func initOSS(config *app.Config) oss.OSS {

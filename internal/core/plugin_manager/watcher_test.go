@@ -5,9 +5,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	cloudoss "github.com/langgenius/dify-cloud-kit/oss"
+	cloudoss "github.com/xwxsee2014/dify-cloud-kit/oss"
 
-	"github.com/langgenius/dify-cloud-kit/oss/factory"
 	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_daemon/access_types"
 	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_manager/basic_runtime"
 	"github.com/langgenius/dify-plugin-daemon/internal/types/app"
@@ -15,6 +14,7 @@ import (
 	"github.com/langgenius/dify-plugin-daemon/pkg/entities"
 	"github.com/langgenius/dify-plugin-daemon/pkg/entities/manifest_entities"
 	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
+	"github.com/xwxsee2014/dify-cloud-kit/oss/factory"
 )
 
 type fakePlugin struct {
