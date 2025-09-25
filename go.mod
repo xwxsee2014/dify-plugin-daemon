@@ -16,8 +16,8 @@ require (
 	github.com/spf13/viper v1.19.0
 	github.com/stretchr/testify v1.10.0
 	github.com/xeipuuv/gojsonschema v1.2.0
-	golang.org/x/tools v0.35.0
 	github.com/xwxsee2014/dify-cloud-kit v0.0.0-20250915080330-4f139c48575a
+	golang.org/x/tools v0.35.0
 	gorm.io/driver/mysql v1.5.7
 	gorm.io/gorm v1.25.11
 )
